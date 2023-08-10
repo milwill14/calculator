@@ -1,0 +1,22 @@
+body {
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+}
+
+.calculator {
+    border: solid black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+button {
+    width: 80px;
+    height: 50px;
+}
