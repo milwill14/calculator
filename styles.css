@@ -9,6 +9,7 @@ body {
 
 .calculator {
     border: solid black;
+    background-color: blueviolet;
 }
 
 .buttons {
